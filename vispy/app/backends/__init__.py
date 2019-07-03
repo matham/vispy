@@ -32,6 +32,7 @@ PSEUDO_BACKENDS = [
     # ('ipynb_static', '_ipynb_static', None),
     ('ipynb_webgl', '_ipynb_webgl', None),
     ('_test', '_test', 'vispy.app.backends._test'),  # add one that will fail
+    ('kivy_glir', '_kivy_glir', 'kivy'),
 ]
 
 # Combine
